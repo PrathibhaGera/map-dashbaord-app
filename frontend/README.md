@@ -22,7 +22,7 @@ This project is a **full-stack application** built using **React.js, Node.js, Ex
 
 ### 1️⃣ Clone & Install Dependencies
 
-git clone <repository-url>
+git clone
 cd map-dashbaord-app
 
 2️⃣ Backend Setup
@@ -61,6 +61,6 @@ npm run dev
 🔑 Authentication API
 
 Method Endpoint Description
-POST /api/login User Login (returns JWT token)
-GET /api/dashboard Fetch Dashboard Data (Protected)
-GET /api/map Fetch Map Configuration (Protected)
+POST - /api/login - User Login (returns JWT token)
+GET - /api/dashboard - Fetch Dashboard Data (Protected)
+GET - /api/map Fetch - Map Configuration (Protected)

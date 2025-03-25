@@ -14,7 +14,7 @@ class Dashboard extends Component {
     const token = localStorage.getItem("token");
 
     axios
-      .get("https://map-dashbaord-app.onrender.com", {
+      .get("https://map-dashbaord-app.onrender.com/api/dashboard", {
         headers: {
           Authorization: `Bearer ${token}`,
         },

@@ -20,7 +20,7 @@ class Login extends Component {
 
     try {
       const response = await axios.post(
-        "https://map-dashbaord-app.onrender.com",
+        "https://map-dashbaord-app.onrender.com/api/login",
         { username: this.state.username, password: this.state.password },
         { withCredentials: true }
       );
