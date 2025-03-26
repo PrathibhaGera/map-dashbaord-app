@@ -80,7 +80,11 @@ npm run dev
 
 🔑 Authentication API
 
-Method Endpoint Description
-POST - /api/login User Login (returns JWT token)
-GET - /api/dashboard - Fetch Dashboard Data (Protected)
-GET - /api/map Fetch - Map Configuration (Protected)
+📌 API Endpoints
+🔑 Authentication API
+
+#POST - /api/login → User Login (returns JWT token)
+
+#GET - /api/dashboard → Fetch Dashboard Data (Protected)
+
+#GET - /api/map → Fetch Map Configuration (Protected)
