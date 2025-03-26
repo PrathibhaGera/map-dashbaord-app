@@ -78,10 +78,7 @@ npm run dev
 
 📌 API Endpoints
 
-🔑 Authentication API
-
-📌 API Endpoints
-🔑 Authentication API
+## Authentication API
 
 #POST - /api/login → User Login (returns JWT token)
 
